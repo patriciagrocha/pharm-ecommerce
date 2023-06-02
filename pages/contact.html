@@ -7,21 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pharma Popular</title>
     <script src="https://kit.fontawesome.com/1d92a39bc0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/menu.style.css">
 
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="../img/logo.png" alt="logo">
+    <header id="header">
+        <section class="section__logo">
+          <div>
+            <h1>
+               <a href="../index.html"> <img id="logo" src="../img/logo.png" alt="logo"></a>
+            </h1>
+          </div>
+           <div>
+            <input type="search" placeholder="O que você procura?">
+           </div>
+            <div class="header__icons">
+                <div class="header__icons__div">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Minha conta</span>
+                </div>
+                <div class="header__icons__div">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span>Minha cesta</span>
+                </div>
+            </div>
+        </section>
 
-            <ul>
-                <li> <a href="index.html"> Início </a></li>
-                <li> <a href="./pages/medicamentos.html" target="_blank">Todos os medicamentos </a></li>
-                <li> <a href="./pages/about.html" target="_blank"> Sobre nós</a> </li>
-                <li><a href="./pages/contact.html" target="_blank">Fale conosco</a></li>
-            </ul>
-        </nav>
+        <section  class="section__menu">
+            <nav class="section__menu__nav">
+                <ul class="section__menu__list">
+                    <li> <a href="../index.html"> Início </a></li>
+                    <li><a href="../pages/medicine.html" target="_blank">Todos os medicamentos </a></li>
+                    <li> <a href="../pages/about.html" target="_blank"> Sobre nós</a> </li>
+                    <li><a href="../pages/contact.html" >Fale conosco</a></li>
+                </ul>
+            </nav>
     </header>
 
     <main>
