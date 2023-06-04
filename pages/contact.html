@@ -10,20 +10,21 @@
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../styles/menu.style.css">
     <link rel="stylesheet" href="../styles/footer.style.css">
+    <link rel="stylesheet" href="../styles/contact.style.css">
 
 </head>
 
 <body>
     <header id="header">
         <section class="section__logo">
-          <div>
-            <h1>
-               <a href="../index.html"> <img id="logo" src="../img/logo.png" alt="logo"></a>
-            </h1>
-          </div>
-           <div>
-            <input type="search" placeholder="O que você procura?">
-           </div>
+            <div>
+                <h1>
+                    <a href="../index.html"> <img id="logo" src="../img/logo.png" alt="logo"></a>
+                </h1>
+            </div>
+            <div>
+                <input type="search" placeholder="O que você procura?">
+            </div>
             <div class="header__icons">
                 <div class="header__icons__div">
                     <i class="fa-solid fa-user"></i>
@@ -36,44 +37,65 @@
             </div>
         </section>
 
-        <section  class="section__menu">
+        <section class="section__menu">
             <nav class="section__menu__nav">
                 <ul class="section__menu__list">
                     <li> <a href="../index.html"> Início </a></li>
                     <li><a href="../pages/medicine.html" target="_blank">Todos os medicamentos </a></li>
                     <li> <a href="../pages/about.html" target="_blank"> Sobre nós</a> </li>
-                    <li><a href="../pages/contact.html" >Fale conosco</a></li>
+                    <li><a href="../pages/contact.html">Fale conosco</a></li>
                 </ul>
             </nav>
     </header>
 
     <main>
-        <section>
-            <h3>Formulário de contato</h3>
-            <form action="">
-                <fieldset>
-                    <label for="">Nome </label>
-                    <input type="text">
-                    <label for="">Telefone </label>
-                    <input type="text" placeholder="( ) xxxxx-xxxx">
-                    <label for="">E-mail </label>
-                    <input type="email" placeholder="seuemail@email.com">
-                    <label for="">Assunto</label>
-                    <select name="" id=""> 
-                        <option value=""></option>
-                        <option value="">Comercial</option>
-                        <option value="">Dúvidas</option>
-                        <option value="">Revenda</option>
-                    </select>
-                    <label for="">Mensagem</label>
-                    <textarea name="" id="" cols="25" rows="5"></textarea>
-                    <input type="checkbox" name="" id="">
-                    <label for="">Esta mensagem é sobre um orçamento.</label>
-                    <button>Enviar</button>
+        <section class="section__contact"> 
+            <h2>Formulário de contato</h2>
+            <form action="" method="">
+                <fieldset class="form__container">
+                    <div class="section__contact__input">
+                        <label for="name">Nome </label>
+                        <input  class="form__input" type="text" id="name" required>
+                    </div>
+    
+                    <div class="section__contact__input">
+                        <label for="phoneNumber">Telefone </label>
+                        <input class="form__input" type="text" id="phoneNumber" placeholder="( ) xxxxx-xxxx" required>
+                    </div>
+    
+                    <div class="section__contact__input">
+                        <label for="email">E-mail </label>
+                        <input class="form__input" type="email" id="email" placeholder="seuemail@email.com" required>
+                    </div>
+    
+                    <div class="section__contact__input">
+                        <label for="subject">Assunto</label>
+                        <select class="form__input" name="" id="subject" required>
+                            <option value=""></option>
+                            <option value="">Comercial</option>
+                            <option value="">Dúvidas</option>
+                            <option value="">Revenda</option>
+                            <option value="">Outro</option>
+                        </select>
+                    </div>
+    
+                    <div class="section__contact__input">
+                        <label for="mensage">Mensagem</label>
+                        <textarea class="form__input" name="" id="mensage" cols="25" rows="5"
+                            placeholder="Digite aqui sua mensagem..." required></textarea>
+                    </div>
+    
+                    <div>
+                        <input type="checkbox" name="" id="checkbox">
+                        <label for="checkbox">Esta mensagem é sobre um orçamento.</label>
+                    </div>
+    
+                    <button class="form__button">Enviar</button>
                 </fieldset>
             </form>
         </section>
     </main>
+
     <footer>
         <section class="footer__section">
             <div>
