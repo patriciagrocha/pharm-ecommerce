@@ -42,6 +42,7 @@
 }
 .header__icons__div:hover {
     color: var(--color-secondary);
+    cursor: pointer;
 }
 .section__menu__list {
     width: 100%;
