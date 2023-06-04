@@ -45,13 +45,15 @@
 #checkbox {
     width: 16px;
     height: 16px;
+    cursor: pointer;
 }
 .form__button {
     background-color: var(--color-primary);
     border-radius: 4px;
-    padding: 4px;
+    padding: 8px;
     color: var(--font-color);
     font-weight: 500;
     border: none;
     margin-top: 1rem;
+    cursor: pointer;
 }
