@@ -5,6 +5,8 @@
 Este repositório contém o código-fonte para um e-commerce de uma farmácia, com funcionalidades completas de navegação em páginas. O projeto é desenvolvido utilizando
 tecnologias web HTML5 e CSS3.
 
+Encontra-se hospedado no Github Pages no link:  https://patriciagrocha.github.io/pharm-ecommerce
+
 ### Funcionalidades
 
 O objetivo deste projeto é criar uma plataforma de e-commerce para uma farmácia, oferecendo aos clientes a possibilidade de navegar entre as páginas e realizar compras
