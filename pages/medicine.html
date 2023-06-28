@@ -11,42 +11,60 @@
     <link rel="stylesheet" href="../styles/menu.style.css">
     <link rel="stylesheet" href="../styles/footer.style.css">
     <link rel="stylesheet" href="../styles/medicine.style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <header id="header">
-        <section class="section__logo">
+    <header class="container-fluid bg-secondary bg-opacity-25">
+    
+        <div class=" container-fluid d-flex align-items-center justify-content-between p-4 ">
             <div>
                 <h1>
-                    <a href="../index.html"> <img id="logo" src="../img/logo.png" alt="logo"></a>
+                    <a href="index.html"> <img id="logo" src="../img/logo.png" alt="logo"></a>
                 </h1>
             </div>
-            <div>
-                <input type="search" placeholder="O que você procura?">
-            </div>
-            <div class="header__icons">
-                <div class="header__icons__div">
+            <form class="container col-5">
+                <div>
+                    <input type="text" class="form-control" placeholder="O que você procura?">
+                </div>
+            </form>
+    
+            <div class="d-flex align-items-center gap-4">
+                <a class="nav-link" href="#">
                     <i class="fa-solid fa-user"></i>
                     <span>Minha conta</span>
-                </div>
-                <div class="header__icons__div">
+                </a>
+                <a class="nav-link" href="#">
                     <i class="fa-solid fa-basket-shopping"></i>
                     <span>Minha cesta</span>
+                </a>
+            </div>
+    
+        </div>
+        </div>
+        </section>
+        </div>
+        </section>
+    
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid ">
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav  col-6 align-items-center justify-content-between">
+                        <li> <a class="nav-link " aria-current="page" href="../index.html">Início</a></li>
+                        <li> <a class="nav-link" href="../pages/medicine.html" target="_blank">Todos os medicamentos</a>
+                        </li>
+                        <li> <a class="nav-link" href="../pages/about.html" target="_blank">Sobre nós</a></li>
+                        <li><a class="nav-link" href="../pages/contact.html" target="_blank">Fale conosco</a></li>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <section class="section__menu">
-            <nav class="section__menu__nav">
-                <ul class="section__menu__list">
-                    <li> <a href="../index.html"> Início </a></li>
-                    <li><a href="../pages/medicine.html">Todos os medicamentos </a></li>
-                    <li> <a href="../pages/about.html" target="_blank"> Sobre nós</a> </li>
-                    <li><a href="../pages/contact.html" target="_blank">Fale conosco</a></li>
-                </ul>
-            </nav>
+        </nav>  
     </header>
 
     <main>

@@ -12,78 +12,100 @@
     <link rel="stylesheet" href="./styles/footer.style.css">
     <link rel="stylesheet" href="./styles/index.style.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <header id="header">
-        <section class="section__logo">
+    <header class="container-fluid bg-secondary bg-opacity-25">
+    
+        <div class=" container-fluid d-flex align-items-center justify-content-between p-4 ">
             <div>
                 <h1>
                     <a href="index.html"> <img id="logo" src="./img/logo.png" alt="logo"></a>
                 </h1>
             </div>
-            <div>
-                <input type="search" placeholder="O que você procura?">
-            </div>
-            <div class="header__icons">
-                <div class="header__icons__div">
+            <form class="container col-5">
+                <div>
+                    <input type="text" class="form-control" placeholder="O que você procura?">
+                </div>
+            </form>
+    
+            <div class="d-flex align-items-center gap-4">
+                <a class="nav-link" href="#">
                     <i class="fa-solid fa-user"></i>
                     <span>Minha conta</span>
-                </div>
-                <div class="header__icons__div">
+                </a>
+                <a class="nav-link" href="#">
                     <i class="fa-solid fa-basket-shopping"></i>
                     <span>Minha cesta</span>
+                </a>
+            </div>
+    
+        </div>
+        </div>
+        </section>
+        </div>
+        </section>
+    
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid ">
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav  col-6 align-items-center justify-content-between">
+                        <li> <a class="nav-link " aria-current="page" href="index.html">Início</a></li>
+                        <li> <a class="nav-link" href="./pages/medicine.html" target="_blank">Todos os medicamentos</a>
+                        </li>
+                        <li> <a class="nav-link" href="./pages/about.html" target="_blank">Sobre nós</a></li>
+                        <li><a class="nav-link" href="./pages/contact.html" target="_blank">Fale conosco</a></li>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <section class="section__menu">
-            <nav class="section__menu__nav">
-                <ul class="section__menu__list">
-                    <li> <a href="index.html"> Início </a></li>
-                    <li><a href="./pages/medicine.html" target="_blank">Todos os medicamentos </a></li>
-                    <li> <a href="./pages/about.html" target="_blank"> Sobre nós</a> </li>
-                    <li><a href="./pages/contact.html" target="_blank">Fale conosco</a></li>
-                </ul>
-            </nav>
+        </nav>
     </header>
 
     <main>
         <section class="section__banner">
-            <div id="carouselExampleIndicators" class="carousel slide"  data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/home_banner1.webp" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/home_banner2.webp" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/home_banner3.webp" class="d-block w-100" alt="...">
-                  </div>
+                    <div class="carousel-item active">
+                        <img src="./img/home_banner1.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/home_banner2.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/home_banner3.webp" class="d-block w-100" alt="...">
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon icon-carousel" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon icon-carousel" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon icon-carousel" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon icon-carousel" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
         </section>
 
         <section class="section__medicine">
-            <a  href="../pages/medicine.html" target="_blank" rel="noopener noreferrer"> <button class="section__medicine__button"> Todos os medicamentos </button></a>
-           
+            <a href="../pages/medicine.html" target="_blank" rel="noopener noreferrer"> <button
+                    class="section__medicine__button"> Todos os medicamentos </button></a>
+
 
             <h2 class="section__medicine__title"> Produtos mais vendidos</h2>
 
@@ -95,10 +117,10 @@
                     </div>
 
                     <div class="div-card-img">
-                       <img id="img-card" src="./img/medicine.png" alt="">
-                    <h4>Fórmula Mágica 180mg</h4>
-                    <p> 10 comprimidos</p>
-                   </div>
+                        <img id="img-card" src="./img/medicine.png" alt="">
+                        <h4>Fórmula Mágica 180mg</h4>
+                        <p> 10 comprimidos</p>
+                    </div>
                     <p><strong>R$100,00</strong></p>
 
                     <button class="card-button"> Adicionar <i class="fa-sharp fa-solid fa-plus"></i></button>
@@ -109,10 +131,10 @@
                     </div>
 
                     <div class="div-card-img">
-                       <img id="img-card" src="./img/medicine.png" alt="">
-                    <h4>Fórmula Mágica 180mg</h4>
-                    <p> 10 comprimidos</p>
-                   </div>
+                        <img id="img-card" src="./img/medicine.png" alt="">
+                        <h4>Fórmula Mágica 180mg</h4>
+                        <p> 10 comprimidos</p>
+                    </div>
                     <p><strong>R$100,00</strong></p>
 
                     <button class="card-button"> Adicionar <i class="fa-sharp fa-solid fa-plus"></i></button>
@@ -123,10 +145,10 @@
                     </div>
 
                     <div class="div-card-img">
-                       <img id="img-card" src="./img/medicine.png" alt="">
-                    <h4>Fórmula Mágica 180mg</h4>
-                    <p> 10 comprimidos</p>
-                   </div>
+                        <img id="img-card" src="./img/medicine.png" alt="">
+                        <h4>Fórmula Mágica 180mg</h4>
+                        <p> 10 comprimidos</p>
+                    </div>
                     <p><strong>R$100,00</strong></p>
 
                     <button class="card-button"> Adicionar <i class="fa-sharp fa-solid fa-plus"></i></button>
@@ -137,19 +159,19 @@
                     </div>
 
                     <div class="div-card-img">
-                       <img id="img-card" src="./img/medicine.png" alt="">
-                    <h4>Fórmula Mágica 180mg</h4>
-                    <p> 10 comprimidos</p>
-                   </div>
+                        <img id="img-card" src="./img/medicine.png" alt="">
+                        <h4>Fórmula Mágica 180mg</h4>
+                        <p> 10 comprimidos</p>
+                    </div>
                     <p><strong>R$100,00</strong></p>
 
                     <button class="card-button"> Adicionar <i class="fa-sharp fa-solid fa-plus"></i></button>
                 </article>
                 <button class="section__banner__button"> <i class="fa-solid fa-arrow-right"></i></button>
-                             
+
             </div>
 
-          
+
 
         </section>
 
