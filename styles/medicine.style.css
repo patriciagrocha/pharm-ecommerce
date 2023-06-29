@@ -14,26 +14,15 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
-.section__medicine {
-    padding-bottom: 3rem;
-}
 .section__medicine__title {
-    padding: 2rem 0;
+    padding-top: 2rem;
     text-align: left;
     margin-left: 2rem;
     font-size: 1.3rem; 
 }
-.section__cards {
-    width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr) ; 
-    padding: 1rem 0 5rem; 
-    gap: 2rem; 
-}
+
 .article__card {
-    height: 25rem;
-    width: 15rem;
+    min-height: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,12 +33,16 @@
     border: 1px solid var(--header-bg);
 }
 .card-icon { 
-    background-color: var(--header-bg);
     width: 100%;
     display: flex;
     justify-content: end;
-    padding: .5rem 1.5rem;
-    border-radius: 5px 5px 0 0 ;
+}
+.card-icon button {
+    border: none;
+    background-color:#1cb2cd;
+    background-color: transparent;
+    width: 6rem;
+    height: 4rem;
 }
 #img-card{
     width: 7rem;
@@ -64,7 +57,7 @@
     border: none;
     background-color:#1f32dd;
     padding: .6rem;
-    width: 85%;
+    width: 80%;
     border-radius: 20px;
     color: var(--font-color);
     font-size: 1.2rem;
