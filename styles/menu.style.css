@@ -11,7 +11,10 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
-
+#logo {
+    max-width: 20rem;
+    width: 100%;
+}
 .navbar-nav {
     font-weight: 500;
 }
