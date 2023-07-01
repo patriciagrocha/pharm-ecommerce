@@ -1,6 +1,6 @@
 
 const logoImg = {
-  src: "img/logo.png",
+  src: "./assets/img/logo.png",
   alt: "Logo Pharma Popular",
 };
 
@@ -11,15 +11,15 @@ const options = [
   },
   {
     text: "Todos os medicamentos",
-    href: "./pages/medicine.html",
+    href: "./src/pages/medicine.html", 
   },
   {
     text: "Sobre nós",
-    href: "./pages/about.html",
+    href: "./src/pages/about.html",
   },
   {
     text: "Fale conosco",
-    href: "./pages/contact.html",
+    href: "./src/pages/contact.html",
   },
 ];
 
@@ -29,9 +29,9 @@ for(const key in logoImg) {
 }
 
 const navLinks = document.querySelectorAll(".navbar-nav a");
-function menuOptions(navLinks, options) {
+function menuOptions(navLinks, options){
   navLinks.forEach((link, index) => {
-        const option = options[index]
+        const option = options[index];        
         link.innerText = option.text;
         link.setAttribute("href", option.href);    
   });

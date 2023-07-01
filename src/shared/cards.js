@@ -1,8 +1,5 @@
-/**Na página de todos os medicamentos, crie uma lista de medicamentos utilizando JavaScript para criar elementos do DOM dinamicamente. Os medicamentos devem ser exibidos em cards, contendo título, imagem, valor e um botão de adicionar ao carrinho.
 
-Sugestão: Crie uma lista de objetos em Javascript com informações de cada card */
-
-import { productsList } from "./productsList.mock.js";
+import { productsList } from "../utils/productsList.mock.js";
 
 const products = productsList;
 
