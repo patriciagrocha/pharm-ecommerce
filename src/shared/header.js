@@ -1,6 +1,6 @@
 
 const logoImg = {
-  src: "./assets/img/logo.png",
+  src: "./src/assets/img/logo.png",
   alt: "Logo Pharma Popular",
 };
 
